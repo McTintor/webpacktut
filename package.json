@@ -5,9 +5,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
+    "start": "webpack"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
