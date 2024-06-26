@@ -9,4 +9,12 @@ module.exports = merge(common, {
         path: path.resolve(__dirname, "dist"), 
         assetModuleFilename: "images/[name][ext]",
     },
+    module: {
+        rules: [
+            {
+                test: /\.scss$/i,
+                use: ["style-loader", "css-loader", "sass-loader"],
+              },
+        ]
+    }
 });
