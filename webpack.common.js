@@ -16,7 +16,7 @@ module.exports = {
           {
             test: /\.(svg|png|jpg|gif)$/,
             type: "asset/resource",
-          },
+        },
         ],
       },
       plugins: [new HtmlWebpackPlugin({
